@@ -20,7 +20,7 @@ func init() {
 	}
 
 	// decode
-	var t syscall.Timeval32
+	var t Timeval
 	err = binary.Read(bytes.NewBuffer([]byte(res)), binary.LittleEndian, &t)
 	if err != nil {
 		btime = time.Now()
