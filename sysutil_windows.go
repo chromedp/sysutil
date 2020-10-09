@@ -18,6 +18,5 @@ func init() {
 		btime = time.Now()
 		return
 	}
-
 	btime = time.Now().Add(time.Duration(-res) * time.Millisecond)
 }

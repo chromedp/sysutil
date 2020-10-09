@@ -1,3 +1,3 @@
-module github.com/knq/sysutil
+module github.com/chromedp/sysutil
 
-go 1.13
+go 1.15
