@@ -11,5 +11,5 @@ func BootTime() time.Time {
 
 // Uptime returns the duration the system has been up.
 func Uptime() time.Duration {
-	return time.Now().Sub(btime)
+	return time.Since(btime)
 }
